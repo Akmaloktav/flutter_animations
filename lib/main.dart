@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/animated_align_widget.dart';
 import 'package:flutter_animations/animated_container_widget.dart';
 import 'package:flutter_animations/animated_opacity_widget.dart';
+import 'package:flutter_animations/contoh_alignment_lerp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimatedOpacityWidget(),
+      home: ContohAlignmentLerp(),
     );
   }
 }
