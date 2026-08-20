@@ -4,10 +4,12 @@ import 'package:flutter_animations/animated_container_widget.dart';
 import 'package:flutter_animations/animated_opacity_widget.dart';
 import 'package:flutter_animations/animated_positined_widget.dart';
 import 'package:flutter_animations/animated_scale_widget.dart';
+import 'package:flutter_animations/animated_slide_widget.dart';
 import 'package:flutter_animations/contoh_alignment_lerp.dart';
 import 'package:flutter_animations/detail_page_with_sheet.dart';
 import 'package:flutter_animations/example_animated_positined_widget.dart';
 import 'package:flutter_animations/example_animated_scale.dart';
+import 'package:flutter_animations/example_animated_slide.dart';
 import 'package:flutter_animations/explicit_animation.dart';
 import 'package:flutter_animations/explicit_animation2.dart';
 import 'package:flutter_animations/explicit_animation3.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExampleAnimatedScaleWithAnimatedOpacity(),
+      home: ExampleAnimatedSlide(),
     );
   }
 }
