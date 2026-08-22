@@ -16,10 +16,13 @@ import 'package:flutter_animations/example_animated_scale.dart';
 import 'package:flutter_animations/example_animated_slide.dart';
 import 'package:flutter_animations/example_animated_switcher.dart';
 import 'package:flutter_animations/example_animated_switcher2.dart';
+import 'package:flutter_animations/example_tween_animation_builder.dart';
+import 'package:flutter_animations/example_tween_animation_builder2.dart';
 import 'package:flutter_animations/explicit_animation.dart';
 import 'package:flutter_animations/explicit_animation2.dart';
 import 'package:flutter_animations/explicit_animation3.dart';
 import 'package:flutter_animations/example_animated_scale_with_animated_opacity.dart';
+import 'package:flutter_animations/tween_animation_builder_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ExampleAnimatedSwitcher2(),
+      home: ExampleTweenAnimationBuilder2(),
     );
   }
 }
